@@ -4,7 +4,7 @@ const stateDataObj = [
     state: "Alabama",
     img: "./states/1.png",
     gunOwnership: "48.9%",
-    gunDeath: "17.79",
+    gunDeath: "21.51",
     gunGrade: "F",
     gunGradePro: "18/50"
   },
@@ -13,7 +13,7 @@ const stateDataObj = [
     state: "Alaska",
     img: "./states/2.png",
     gunOwnership: "61.7%",
-    gunDeath: "10.59",
+    gunDeath: "23.86",
     gunGrade: "F",
     gunGradePro: "2/50"
   },
@@ -22,7 +22,7 @@ const stateDataObj = [
     state: "Arizona",
     img: "./states/3.png",
     gunOwnership: "32.3%",
-    gunDeath: "14.2",
+    gunDeath: "15.78",
     gunGrade: "F",
     gunGradePro: "1/50"
   },
@@ -31,7 +31,7 @@ const stateDataObj = [
     state: "Arkansas",
     img: "./states/4.png",
     gunOwnership: "57.9%",
-    gunDeath: "16.93",
+    gunDeath: "18.1",
     gunGrade: "F",
     gunGradePro: "22/50"
   },
@@ -40,7 +40,7 @@ const stateDataObj = [
     state: "California",
     img: "./states/5.png",
     gunOwnership: "20.1%",
-    gunDeath: "7.89",
+    gunDeath: "8.11",
     gunGrade: "A",
     gunGradePro: "46/50"
   },
@@ -49,7 +49,7 @@ const stateDataObj = [
     state: "Colorado",
     img: "./states/6.png",
     gunOwnership: "34.2%",
-    gunDeath: "11.75",
+    gunDeath: "14.66",
     gunGrade: "C",
     gunGradePro: "39/50"
   },
@@ -58,7 +58,7 @@ const stateDataObj = [
     state: "Conneticut",
     img: "./states/7.png",
     gunOwnership: "16.6%",
-    gunDeath: "4.48",
+    gunDeath: "4.81",
     gunGrade: "A-",
     gunGradePro: "45/50"
   },
@@ -67,7 +67,7 @@ const stateDataObj = [
     state: "Delaware",
     img: "./states/8.png",
     gunOwnership: "5.2%",
-    gunDeath: "10.8",
+    gunDeath: "11.66",
     gunGrade: "B",
     gunGradePro: "42/50"
   },
@@ -76,7 +76,7 @@ const stateDataObj = [
     state: "Florida",
     img: "./states/9.png",
     gunOwnership: "32.5%",
-    gunDeath: "12.49",
+    gunDeath: "13.12",
     gunGrade: "F",
     gunGradePro: "12/50"
   },
@@ -85,7 +85,7 @@ const stateDataObj = [
     state: "Georgia",
     img: "./states/10.png",
     gunOwnership: "31.6%",
-    gunDeath: "12.63",
+    gunDeath: "15.24",
     gunGrade: "F",
     gunGradePro: "9/50"
   },
@@ -94,7 +94,7 @@ const stateDataObj = [
     state: "Hawaii",
     img: "./states/11.png",
     gunOwnership: "45.1%",
-    gunDeath: "2.71",
+    gunDeath: "4.62",
     gunGrade: "A-",
     gunGradePro: "47/50"
   },
@@ -103,7 +103,7 @@ const stateDataObj = [
     state: "Idaho",
     img: "./states/12.png",
     gunOwnership: "56.9%",
-    gunDeath: "14.08",
+    gunDeath: "14.38",
     gunGrade: "F",
     gunGradePro: "19/50"
   },
@@ -112,7 +112,7 @@ const stateDataObj = [
     state: "Illinois",
     img: "./states/13.png",
     gunOwnership: "26.2%",
-    gunDeath: "8.67",
+    gunDeath: "11.64",
     gunGrade: "B+",
     gunGradePro: "40/50"
   },
@@ -121,7 +121,7 @@ const stateDataObj = [
     state: "Indiana",
     img: "./states/14.jpg",
     gunOwnership: "33.8%",
-    gunDeath: "13.04",
+    gunDeath: "15.03",
     gunGrade: "D-",
     gunGradePro: "21/50"
   },
@@ -130,7 +130,7 @@ const stateDataObj = [
     state: "Iowa",
     img: "./states/15.jpg",
     gunOwnership: "33.8%",
-    gunDeath: "8.19",
+    gunDeath: "9.19",
     gunGrade: "C-",
     gunGradePro: "36/50"
   },
@@ -139,7 +139,7 @@ const stateDataObj = [
     state: "Kansas",
     img: "./states/16.png",
     gunOwnership: "32.2%",
-    gunDeath: "11.44",
+    gunDeath: "13.17",
     gunGrade: "F",
     gunGradePro: "3/50"
   },
@@ -148,7 +148,7 @@ const stateDataObj = [
     state: "Kentucky",
     img: "./states/17.png",
     gunOwnership: "42.4%",
-    gunDeath: "14.15",
+    gunDeath: "17.4",
     gunGrade: "F",
     gunGradePro: "14/50"
   },
@@ -157,7 +157,7 @@ const stateDataObj = [
     state: "Louisiana",
     img: "./states/18.png",
     gunOwnership: "44.5%",
-    gunDeath: "19.15",
+    gunDeath: "21.08",
     gunGrade: "F",
     gunGradePro: "28/50"
   },
@@ -166,7 +166,7 @@ const stateDataObj = [
     state: "Maine",
     img: "./states/19.png",
     gunOwnership: "22.6%",
-    gunDeath: "11.89",
+    gunDeath: "9.24",
     gunGrade: "F",
     gunGradePro: "30/50"
   },
@@ -175,7 +175,7 @@ const stateDataObj = [
     state: "Maryland",
     img: "./states/20.png",
     gunOwnership: "20.7%",
-    gunDeath: "9.75",
+    gunDeath: "11.75",
     gunGrade: "A-",
     gunGradePro: "44/50"
   },
@@ -184,7 +184,7 @@ const stateDataObj = [
     state: "Massachusetts",
     img: "./states/21.png",
     gunOwnership: "22.6%",
-    gunDeath: "3.18",
+    gunDeath: "3.55",
     gunGrade: "A-",
     gunGradePro: "49/50"
   },
@@ -193,7 +193,7 @@ const stateDataObj = [
     state: "Michigan",
     img: "./states/22.png",
     gunOwnership: "28.8%",
-    gunDeath: "12.03",
+    gunDeath: "12.39",
     gunGrade: "C",
     gunGradePro: "27/50"
   },
@@ -202,7 +202,7 @@ const stateDataObj = [
     state: "Minnesota",
     img: "./states/23.png",
     gunOwnership: "36.7%",
-    gunDeath: "7.88",
+    gunDeath: "7.83",
     gunGrade: "C+",
     gunGradePro: "41/50"
   },
@@ -211,7 +211,7 @@ const stateDataObj = [
     state: "Mississippi",
     img: "./states/24.png",
     gunOwnership: "42.8%",
-    gunDeath: "17.51",
+    gunDeath: "19.64",
     gunGrade: "F",
     gunGradePro: "16/50"
   },
@@ -220,7 +220,7 @@ const stateDataObj = [
     state: "Missouri",
     img: "./states/25.png",
     gunOwnership: "27.1%",
-    gunDeath: "14.56",
+    gunDeath: "18.78",
     gunGrade: "F",
     gunGradePro: "10/50"
   },
@@ -229,7 +229,7 @@ const stateDataObj = [
     state: "Montana",
     img: "./states/26.png",
     gunOwnership: "52.3%",
-    gunDeath: "16.94",
+    gunDeath: "18.61",
     gunGrade: "F",
     gunGradePro: "5/50"
   },
@@ -238,16 +238,16 @@ const stateDataObj = [
     state: "Nebraska",
     img: "./states/27.png",
     gunOwnership: "19.8%",
-    gunDeath: "8.99",
+    gunDeath: "8.97",
     gunGrade: "D-",
     gunGradePro: "35/50"
   },
   {
     id: 28,
     state: "Nevada",
-    img: "./states/28.png",
+    img: "./states/28.jpg",
     gunOwnership: "37.5%",
-    gunDeath: "14.16",
+    gunDeath: "16.94",
     gunGrade: "D-",
     gunGradePro: "25/50"
   },
@@ -256,7 +256,7 @@ const stateDataObj = [
     state: "New Hampshire",
     img: "./states/29.png",
     gunOwnership: "14.4%",
-    gunDeath: "7.03",
+    gunDeath: "9.89",
     gunGrade: "F",
     gunGradePro: "15/50"
   },
@@ -265,7 +265,7 @@ const stateDataObj = [
     state: "New Jersey",
     img: "./states/30.png",
     gunOwnership: "11.3%",
-    gunDeath: "5.69",
+    gunDeath: "5.42",
     gunGrade: "A-",
     gunGradePro: "48/50"
   },
@@ -274,7 +274,7 @@ const stateDataObj = [
     state: "New Mexico",
     img: "./states/31.png",
     gunOwnership: "49.9%",
-    gunDeath: "15.63",
+    gunDeath: "18.4",
     gunGrade: "F",
     gunGradePro: "37/50"
   },
@@ -283,7 +283,7 @@ const stateDataObj = [
     state: "New York",
     img: "./states/32.png",
     gunOwnership: "10.3%",
-    gunDeath: "4.39",
+    gunDeath: "4.56",
     gunGrade: "A-",
     gunGradePro: "50/50"
   },
@@ -292,7 +292,7 @@ const stateDataObj = [
     state: "North Carolina",
     img: "./states/33.png",
     gunOwnership: "28.7%",
-    gunDeath: "12.42",
+    gunDeath: "13.89",
     gunGrade: "D-",
     gunGradePro: "26/50"
   },
@@ -301,7 +301,7 @@ const stateDataObj = [
     state: "North Dakota",
     img: "./states/34.png",
     gunOwnership: "47.9%",
-    gunDeath: "11.89",
+    gunDeath: "11.87",
     gunGrade: "F",
     gunGradePro: "7/50"
   },
@@ -310,7 +310,7 @@ const stateDataObj = [
     state: "Ohio",
     img: "./states/35.png",
     gunOwnership: "19.6%",
-    gunDeath: "11.14",
+    gunDeath: "13.12",
     gunGrade: "D",
     gunGradePro: "29/50"
   },
@@ -319,7 +319,7 @@ const stateDataObj = [
     state: "Oklahoma",
     img: "./states/36.png",
     gunOwnership: "31.2%",
-    gunDeath: "16.41",
+    gunDeath: "19.52",
     gunGrade: "F",
     gunGradePro: "4/50"
   },
@@ -328,7 +328,7 @@ const stateDataObj = [
     state: "Oregon",
     img: "./states/37.png",
     gunOwnership: "26.6%",
-    gunDeath: "11.76",
+    gunDeath: "12.53",
     gunGrade: "C",
     gunGradePro: "34/50"
   },
@@ -337,7 +337,7 @@ const stateDataObj = [
     state: "Pennsylvania",
     img: "./states/38.png",
     gunOwnership: "27.1%",
-    gunDeath: "11.36",
+    gunDeath: "12.16",
     gunGrade: "C",
     gunGradePro: "33/50"
   },
@@ -346,7 +346,7 @@ const stateDataObj = [
     state: "Rhode Island",
     img: "./states/39.png",
     gunOwnership: "5.8%",
-    gunDeath: "5.33",
+    gunDeath: "4.64",
     gunGrade: "B+",
     gunGradePro: "43/50"
   },
@@ -355,7 +355,7 @@ const stateDataObj = [
     state: "South Carolina",
     img: "./states/40.png",
     gunOwnership: "44.4%",
-    gunDeath: "15.6",
+    gunDeath: "17.96",
     gunGrade: "F",
     gunGradePro: "24/50"
   },
@@ -364,7 +364,7 @@ const stateDataObj = [
     state: "South Dakota",
     img: "./states/41.png",
     gunOwnership: "35%",
-    gunDeath: "9.47",
+    gunDeath: "12.48",
     gunGrade: "F",
     gunGradePro: "32/50"
   },
@@ -373,7 +373,7 @@ const stateDataObj = [
     state: "Tennessee",
     img: "./states/42.png",
     gunOwnership: "39.4%",
-    gunDeath: "15.86",
+    gunDeath: "17.26",
     gunGrade: "D-",
     gunGradePro: "11/50"
   },
@@ -382,7 +382,7 @@ const stateDataObj = [
     state: "Texas",
     img: "./states/43.png",
     gunOwnership: "35.7%",
-    gunDeath: "10.5",
+    gunDeath: "12.03",
     gunGrade: "F",
     gunGradePro: "8/50"
   },
@@ -391,7 +391,7 @@ const stateDataObj = [
     state: "Utah",
     img: "./states/44.png",
     gunOwnership: "31.9%",
-    gunDeath: "11.68",
+    gunDeath: "12.13",
     gunGrade: "F",
     gunGradePro: "6/50"
   },
@@ -400,7 +400,7 @@ const stateDataObj = [
     state: "Vermont",
     img: "./states/45.png",
     gunOwnership: "28.8%",
-    gunDeath: "10.37",
+    gunDeath: "12.49",
     gunGrade: "F",
     gunGradePro: "20/50"
   },
@@ -409,7 +409,7 @@ const stateDataObj = [
     state: "Virginia",
     img: "./states/46.png",
     gunOwnership: "29.3%",
-    gunDeath: "10.46",
+    gunDeath: "12.47",
     gunGrade: "D",
     gunGradePro: "31/50"
   },
@@ -418,7 +418,7 @@ const stateDataObj = [
     state: "Washington",
     img: "./states/47.png",
     gunOwnership: "27.7%",
-    gunDeath: "9.07",
+    gunDeath: "9.41",
     gunGrade: "B",
     gunGradePro: "38/50"
   },
@@ -427,7 +427,7 @@ const stateDataObj = [
     state: "West Virgina",
     img: "./states/48.png",
     gunOwnership: "54.2%",
-    gunDeath: "15.1",
+    gunDeath: "18.13",
     gunGrade: "F",
     gunGradePro: "13/50"
   },
@@ -436,7 +436,7 @@ const stateDataObj = [
     state: "Wisconsin",
     img: "./states/49.png",
     gunOwnership: "34.7%",
-    gunDeath: "9.93",
+    gunDeath: "11.49",
     gunGrade: "C-",
     gunGradePro: "23/50"
   },
@@ -445,7 +445,7 @@ const stateDataObj = [
     state: "Wyoming",
     img: "./states/50.png",
     gunOwnership: "53.8%",
-    gunDeath: "17.51",
+    gunDeath: "17.25",
     gunGrade: "F",
     gunGradePro: "17/50"
   }

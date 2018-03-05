@@ -69,56 +69,56 @@ function setData(event) {
     case "deathRates":
       sizeData = [
         0,
-        0.9081163859,
-        1,
-        0.7248596223,
-        0.864216437,
-        0.4027565084,
-        0.5997958142,
-        0.2286881062,
-        0.5513016845,
-        0.6375701889,
-        0.6447166922,
-        0.1383358857,
-        0.718734048,
-        0.4425727412,
-        0.6656457376,
-        0.4180704441,
-        0.583971414,
-        0.7223072996,
-        0.977539561,
-        0.6069423175,
-        0.4977029096,
-        0.1623277182,
-        0.6140888208,
-        0.4022460439,
-        0.8938233793,
-        0.7432363451,
-        0.8647269015,
-        0.4589076059,
-        0.7228177642,
-        0.3588565595,
-        0.2904543134,
-        0.797856049,
-        0.2240939255,
-        0.6339969372,
-        0.6069423175,
-        0.5686574783,
-        0.8376722818,
-        0.6003062787,
-        0.5798876978,
-        0.2720775906,
-        0.7963246554,
-        0.483409903,
-        0.809596733,
-        0.5359877489,
-        0.5967330271,
-        0.5293517101,
-        0.5339458908,
-        0.4629913221,
-        0.7708014293,
-        0.5068912711,
-        0.8938233793
+        0.9015088013,
+1,
+0.6613579212,
+0.7585917854,
+0.3398994132,
+0.614417435,
+0.2015926236,
+0.4886839899,
+0.5498742666,
+0.6387259011,
+0.1936295054,
+0.6026823135,
+0.487845767,
+0.6299245599,
+0.3851634535,
+0.551969824,
+0.7292539816,
+0.8834870075,
+0.3872590109,
+0.4924559933,
+0.1487845767,
+0.5192791282,
+0.3281642917,
+0.8231349539,
+0.7870913663,
+0.7799664711,
+0.3759430008,
+0.7099748533,
+0.4145012573,
+0.2271584241,
+0.7711651299,
+0.1911148365,
+0.5821458508,
+0.4974853311,
+0.5498742666,
+0.8181056161,
+0.525146689,
+0.5096395641,
+0.1944677284,
+0.7527242246,
+0.5230511316,
+0.7233864208,
+0.5041911148,
+0.5083822297,
+0.5234702431,
+0.5226320201,
+0.3943839061,
+0.7598491199,
+0.4815590947,
+0.7229673093
       ];
       break;
     case "gunLaw":
@@ -241,56 +241,56 @@ function setData(event) {
     case "deathRatesAverage":
       colorData = [
         0,
-        1.671992481,
-        1.841165414,
-        1.334586466,
-        1.591165414,
-        0.7415413534,
-        1.104323308,
-        0.4210526316,
-        1.015037594,
-        1.17387218,
-        1.187030075,
-        0.2546992481,
-        1.323308271,
-        0.8148496241,
-        1.22556391,
-        0.7697368421,
-        1.07518797,
-        1.329887218,
-        1.79981203,
-        1.117481203,
-        0.9163533835,
-        0.2988721805,
-        1.130639098,
-        0.7406015038,
-        1.645676692,
-        1.368421053,
-        1.592105263,
-        0.844924812,
-        1.330827068,
-        0.6607142857,
-        0.5347744361,
-        1.468984962,
-        0.412593985,
-        1.167293233,
-        1.117481203,
-        1.046992481,
-        1.542293233,
-        1.105263158,
-        1.067669173,
-        0.5009398496,
-        1.466165414,
-        0.890037594,
-        1.490601504,
-        0.9868421053,
-        1.098684211,
-        0.9746240602,
-        0.9830827068,
-        0.852443609,
-        1.419172932,
-        0.9332706767,
-        1.645676692
+        1.798494983,
+1.994983278,
+1.319397993,
+1.513377926,
+0.6780936455,
+1.225752508,
+0.402173913,
+0.974916388,
+1.096989967,
+1.274247492,
+0.3862876254,
+1.202341137,
+0.9732441472,
+1.256688963,
+0.7683946488,
+1.101170569,
+1.454849498,
+1.762541806,
+0.7725752508,
+0.9824414716,
+0.2968227425,
+1.035953177,
+0.6546822742,
+1.642140468,
+1.570234114,
+1.556020067,
+0.75,
+1.41638796,
+0.8269230769,
+0.4531772575,
+1.538461538,
+0.381270903,
+1.161371237,
+0.9924749164,
+1.096989967,
+1.632107023,
+1.047658863,
+1.016722408,
+0.3879598662,
+1.501672241,
+1.043478261,
+1.443143813,
+1.005852843,
+1.014214047,
+1.044314381,
+1.04264214,
+0.7867892977,
+1.515886288,
+0.9607023411,
+1.442307692
       ];
       break;
     case "gunLawAverage":
@@ -352,17 +352,40 @@ function setData(event) {
       break;
   }
 
-  drawData(sizeData, colorData);
+  drawData(sizeData, colorData)
+
+  // let states = document.querySelectorAll(".state");
+
+  // if(states.length > 0) {
+  //   for (var i = 0; i < states.length; i++) {
+  //     states[i].setAttribute("d" , "")
+  //   }
+  //   drawData(sizeData, colorData)
+  // } else {
+  //   drawData(sizeData, colorData)
+  // }
 }
 
 //Create SVG
-var svg = d3.select("svg");
+const svg = d3.select("svg");
+const path = d3.geoPath();
+let geoData= null;
 
-var path = d3.geoPath();
+function getData() {
+  if(geoData) return geoData;
 
-d3.json("./us/10m.json", function(error, us) {
-  if (error) throw error;
+  geoData = new Promise((resolve, reject) => {
+    d3.json("./us/10m.json", function(err, data) {
+      if (err) return reject(err)
+      resolve(data)
+    })
+  })
 
+  return geoData;
+}
+
+
+function drawOutlines(data) {
   svg
     .append("path")
     .attr("stroke", "#aaa")
@@ -372,7 +395,7 @@ d3.json("./us/10m.json", function(error, us) {
     .attr(
       "d",
       path(
-        topojson.mesh(us, us.objects.states, function(a, b) {
+        topojson.mesh(data, data.objects.states, function(a, b) {
           return a !== b;
         })
       )
@@ -383,60 +406,61 @@ d3.json("./us/10m.json", function(error, us) {
     .attr("stroke", "#aaa")
     .attr("stroke-width", 0.5)
     .attr("fill", "transparent")
-    .attr("d", path(topojson.feature(us, us.objects.nation)));
-});
+    .attr("d", path(topojson.feature(data, data.objects.nation)));
+}
+
+getData()
+  .then(drawOutlines);
+
 
 function drawData(size, color) {
-  d3.json("./us/10m.json", function(error, us) {
-    if (error) throw error;
+    getData().then(data => {
 
-    svg
-      .selectAll(".state")
-      .data(topojson.feature(us, us.objects.states).features)
-      .enter()
-      .append("path")
-      .attr("class", "state")
-      .attr("d", path)
-      .attr("transform", function(d) {
-        var centroid = path.centroid(d),
-          x = centroid[0],
-          y = centroid[1];
-        return (
-          "translate(" +
-          x +
-          "," +
-          y +
-          ")" +
-          "scale(" +
-          Math.sqrt(size[d.id]) +
-          ")" +
-          "translate(" +
-          -x +
-          "," +
-          -y +
-          ")"
-        );
-      })
+      let states = document.querySelectorAll(".state");
 
-      .style("stroke-width", function(d) {
-        return 1 / Math.sqrt(size[d.id]);
-      })
-      .attr("id", function(d) {
-        return d.id;
-      })
-      .attr("fill", function(d) {
-        let rate = color[d.id];
-        if (rate < 0.6) {
-          return "#009933";
-        } else if (rate > 0.6 && rate < 0.9) {
-          return "#4CB824";
-        } else if (rate > 0.9 && rate < 1.1) {
-          return "#8CD117";
-        } else if (rate > 1.1 && rate < 1.6) {
-          return "#CCEB0A";
-        } else if (rate > 1.6) {
-          return "#FFFF00";
-        }
-      });
-  });
+      if(states.length > 0) {
+        svg
+          .selectAll(".state")
+          .remove("path")
+      }
+
+      svg
+        .selectAll(".state")
+        .data(topojson.feature(data, data.objects.states).features)
+        .enter()
+        .append("path")
+        .attr("class", "state")
+        .attr("d", path)
+        .attr("transform", function(d) {
+          var centroid = path.centroid(d),
+            x = centroid[0],
+            y = centroid[1];
+          return (
+            "translate(" + x + "," + y +")"
+            + "scale(" + Math.sqrt(size[d.id]) +")"
+            + "translate(" + -x + "," + -y + ")"
+          );
+        })
+
+        .style("stroke-width", function(d) {
+          return 1 / Math.sqrt(size[d.id]);
+        })
+        .attr("id", function(d) {
+          return d.id;
+        })
+        .attr("fill", function(d) {
+          let rate = color[d.id];
+          if (rate < 0.6) {
+            return "#009933";
+          } else if (rate > 0.6 && rate < 0.9) {
+            return "#4CB824";
+          } else if (rate > 0.9 && rate < 1.1) {
+            return "#8CD117";
+          } else if (rate > 1.1 && rate < 1.6) {
+            return "#CCEB0A";
+          } else if (rate > 1.6) {
+            return "#FFFF00";
+          }
+        })
+    })
 }
